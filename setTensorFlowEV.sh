@@ -31,7 +31,7 @@ TF_CUDNN_VERSION=6.0.21
 default_cudnn_path=/usr/lib/aarch64-linux-gnu
 CUDNN_INSTALL_PATH=$default_cudnn_path
 # CUDA compute capability
-TF_CUDA_COMPUTE_CAPABILITIES=6.2
+TF_CUDA_COMPUTE_CAPABILITIES=5.3,6.2
 CC_OPT_FLAGS=-march=native
 TF_NEED_JEMALLOC=1
 TF_NEED_OPENCL=0
